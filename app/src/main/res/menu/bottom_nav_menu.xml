@@ -2,13 +2,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="Игра" />
+        android:id="@+id/navigation_works"
+        android:icon="@drawable/ic_works_foreground"
+        android:title="Мои работы"
+        android:orderInCategory="3"/>
 
     <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="Мои работы" />
+        android:id="@+id/navigation_game"
+        android:icon="@drawable/ic_game_foreground"
+        android:title="Игра"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_help_foreground"
+        android:title="Инфо"
+        android:orderInCategory="1"/>
 
 </menu>

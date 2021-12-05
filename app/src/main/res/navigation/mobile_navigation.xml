@@ -17,4 +17,15 @@
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
+    <fragment
+        android:id="@+id/navigation_help"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/navigation_play"
+        android:name="com.mycompany.poetryfight.ui.PlayFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_play" />
+
 </navigation>
